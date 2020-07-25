@@ -16,3 +16,6 @@ func main() {
 		fmt.Println(item)
 	}
 }
+
+// for  - bypte
+// forr(range)  - rune
