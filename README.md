@@ -13,9 +13,10 @@ npm install @jswork/generator-prompts
 
 ## usage
 ```js
-import generatorPrompts from '@jswork/generator-prompts';
+import getp from '@jswork/generator-prompts';
 
-// usage goes here.
+const prompts = getp(["scope", "registry", "project_name", "description"]);
+// your generator code...
 ```
 
 ## license
