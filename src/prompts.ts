@@ -27,6 +27,12 @@ export const project_name = {
   default: yoHelper.discoverRoot
 };
 
+export const component_name = {
+  type: 'input',
+  name: 'component_name',
+  message: 'Your component_name(rc-button)?'
+};
+
 export const description = {
   type: 'input',
   name: 'description',
