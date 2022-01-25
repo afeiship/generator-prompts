@@ -1,6 +1,6 @@
 {
   "name": "@jswork/generator-prompts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Yeoman generator prompts.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -48,5 +48,11 @@
     "@afeiship/next-npm-registries": "^1.1.0",
     "@jswork/next": "^1.0.9",
     "@jswork/yeoman-generator-helper": "^1.0.4"
-  }
+  },
+  "keywords": [
+    "generator",
+    "yeoman",
+    "prompts",
+    "yo"
+  ]
 }
