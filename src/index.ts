@@ -1,5 +1,5 @@
 import * as prompts from './prompts';
 
-export default (inNames): void => {
+module.exports = (inNames) => {
   return inNames.map((name) => prompts[name]);
 };
