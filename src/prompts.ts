@@ -33,6 +33,12 @@ export const component_name = {
   message: 'Your component_name(rc-button)?'
 };
 
+export const hook_name = {
+  type: 'input',
+  name: 'hook_name',
+  message: 'Your hook_name(use-button)?'
+};
+
 export const description = {
   type: 'input',
   name: 'description',
