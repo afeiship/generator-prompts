@@ -1,5 +1,5 @@
 import yoHelper from '@jswork/yeoman-generator-helper';
-import nxNpmRegistries from '@afeiship/next-npm-registries';
+import nxNpmRegistries from '@jswork/next-npm-registries';
 import '@jswork/next-git-url';
 import gitInfo from '@jswork/git-info';
 const gitUrl = new nx.GitUrl(gitInfo.url());
