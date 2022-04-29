@@ -3,12 +3,13 @@ import nxNpmRegistries from '@jswork/next-npm-registries';
 import '@jswork/next-git-url';
 import gitInfo from '@jswork/git-info';
 const gitUrl = new nx.GitUrl(gitInfo.url());
+const SPT_REGIESTRY = ['npm', 'github', 'alo7', 'null'];
 
 // special for next
 declare var nx: any;
 
 // base
-const NPM_CHOICES = ['npm', 'github', 'alo7'].map((item) => ({
+const NPM_CHOICES = SPT_REGIESTRY.map((item) => ({
   name: item,
   value: nxNpmRegistries(item)
 }));
