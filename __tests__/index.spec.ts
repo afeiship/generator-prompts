@@ -1,8 +1,13 @@
-import fn from '../src';
+// @ts-ignore
+import fn, { supports } from '../src';
 
 describe('api.basic', () => {
-  test('normail single value case', () => {
+  test('generate 2 props', () => {
     const res = fn(['project_name', 'description']);
-    console.log(res);
+    expect(res.length).toBe(2);
+  });
+
+  test('supports must be an anray', () => {
+    expect(Array.isArray(supports())).toBe(true);
   });
 });
