@@ -6,8 +6,4 @@ describe('api.basic', () => {
     const res = fn(['project_name', 'description']);
     expect(res.length).toBe(2);
   });
-
-  test('supports must be an anray', () => {
-    expect(Array.isArray(supports())).toBe(true);
-  });
 });
