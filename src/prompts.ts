@@ -70,6 +70,16 @@ export const email = {
   default: gitInfo.email()
 };
 
+export const filetype = {
+  type: 'list',
+  name: 'filetype',
+  message: 'Your filetype?',
+  choices: [
+    { name: 'TypeScript', value: 'ts' },
+    { name: 'JavaScript', value: 'js' }
+  ]
+};
+
 // ----- react
 export const component_name = {
   type: 'input',
