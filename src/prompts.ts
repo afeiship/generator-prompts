@@ -87,6 +87,18 @@ export const component_name = {
   message: 'Your component_name(rc-button)?'
 };
 
+export const module_name = {
+  type: 'input',
+  name: 'module_name',
+  message: 'Your module_name(mod1)?'
+};
+
+export const resource_name = {
+  type: 'input',
+  name: 'resource_name',
+  message: 'Your resource_name(users)?'
+};
+
 export const hook_name = {
   type: 'input',
   name: 'hook_name',
